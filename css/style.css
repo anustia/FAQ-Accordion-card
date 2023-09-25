@@ -1,0 +1,129 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+     
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+.container{
+    width: 37.5rem;
+    flex-shrink: 0;
+   background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+   padding: 14.8rem 2.4rem 8.5rem;
+   position: relative;
+   }
+.white_container{
+    width: 32.7rem;
+    flex-shrink: 0;
+    border-radius: 23px;
+    background-color: #FFF;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.50); 
+    padding: 13.2rem 2.4rem 4.8rem;  
+    
+    
+
+}
+.mobile_img{
+    margin: 0;
+    width: 23.7rem;
+   height: 18rem;
+   flex-shrink: 0;
+   position: absolute;
+   top: 15%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   
+}
+.rect{
+    width: 27.9rem;
+    height: 0.1rem;
+    flex-shrink: 0;
+    background-color:#E8E8EA;
+    margin:1.8rem 0 1.9rem;
+}
+.head{
+    color: #4B4C5F;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1.3rem;
+}
+.body{
+     width: 27.9rem;
+    color: #787887;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8rem; /* 150% */
+}
+.head_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    
+    }
+.head_div img{
+    width: 0.8rem;
+    height: 0.4rem;
+   flex-shrink: 0;
+   stroke-width: 0.2rem;
+    stroke: #F47B56;
+    
+}
+h1{
+    color: #1E1F36;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 3.8rem;
+}
+.icon_style{
+    transform: rotate(180deg);
+
+}
+.body_div{
+    display: none;
+}
+.text_style{
+    display:block;
+}
+.color{
+    color: #1E1F36;
+    font-weight: 700;
+}
+
+@media only screen and (min-width:1440px) {
+    .container{
+        width: 144rem;
+        flex-shrink: 0;
+        padding:12.9rem 23.9rem 13rem 28.1rem ;
+    }
+    .white_container{
+        width: 92rem;
+        flex-shrink: 0;
+        padding:6.5rem 11.1rem 8.3rem 47.5rem;
+    }
+    .head{
+        margin-right: 7.2rem;
+    }
+    h1{
+        margin-bottom: 4.5rem;
+    }
+    .rect{
+        width: 35rem;
+    }
+    .mobile_img{
+        width: 47.1694rem;
+       height: 27.7972rem;
+        flex-shrink: 0;
+        top:50%;
+        left: 30%;
+    }
+    
+} 
